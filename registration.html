@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <STYle>
+        #register {
+            font-size: 50px;
+            color: aliceblue;
+            background-color: black;
+            text-align: center;
+            width: 50%;
+            
+        }
+        body {
+            background-image: url(https://lh3.googleusercontent.com/p/AF1QipMczq3eOD3wPniGUBcN01IDYyL_7aPpA1lNfMuS=s1360-w1360-h1020);
+           
+           
+        }
+        #student {
+            
+            text-decoration-line: underline;
+           
+            font-size: 60px;
+            text-align: center;
+            color: indigo;
+        }
+        #std {
+            background-color: aliceblue;
+            height: 1000px;
+            padding: 5px;
+            margin-bottom: 30px;
+            margin-top: 30px;
+            border-bottom: 30px;
+            border-radius: 30px;
+            
+        }
+        #apply {
+            color: mediumblue;
+            text-decoration-line: underline;
+            text-align: center;
+        }
+        #note {
+            font-size: 15px;
+        }
+        #sd {
+            padding: 30px;
+            margin-top: 5px;
+        }
+    #chs {
+        width: 100%;
+    }
+    .submit:hover {
+        color: blue;
+        
+    }
+    .submit {
+        width: 100px;
+        position: absolute;
+        margin-left: 300px;
+        margin-top: 50px;
+        border-color: black;
+        font-size: 20px;
+    }
+    * {
+        margin-top: 20px;
+    }
+    .gender {
+        padding: ;
+    }
+    #male{
+        padding: 0px;
+    }
+    .details {
+        padding: 40px;
+    }
+    .adm {
+        padding: 100px;
+    }
+    #teacher {
+        background-color: aqua;
+        height: 1150px;
+    }
+    #terms {
+        margin-top: 20px;
+    }
+    .TERMS {
+        color: black;
+        font-size: 15px;
+    }
+        
+        
+
+        
+    </STYle>
+</head>
+<body>
+    
+   
+        <h1 id="register">REGISTER AS:</h1>
+        <div id="std">
+            <h1 id="student">STUDENT</h1>
+            <p id="note"><strong>Note:</strong> Must have completed your outstanding fee balance</p>
+            <h1 id="apply">fill the below Registration form and submit</h1>
+            <form action="/index.html" >
+                <label for="fname" style="padding: 5px;">First name:</label>
+                <input type="text" name="fname" id="fname">
+                <label for="sname" id="sd">Second name:</label>
+                <input type="text">
+                <label for="lname" id="sd">Last name:</label>
+                <input type="text">
+            
+            </form>
+            <form action="/index.html">
+                <label for="ADM" >ADM NO</label>
+                <input type="text" >
+                <label for="birth" class="adm" >Date of birth</label>
+                <input type="text" placeholder="dd/mm/yy" >
+            </form>
+            <form action="gender" class="gender">
+                <label for="gender">Gender:</label>
+                <label for="male" style="padding: 40px;">male</label>
+                <input type="checkbox"id="male" name="male" value="male" style="padding: 0px; size: 40px;"  >
+                <label for="female" style="padding: 40px;">female</label>
+                <input type="checkbox" id="female" name="female" value="female">
+                <label for="other" style="padding: 40px;">other</label>
+                <input type="checkbox" id="other" name="other" value="other">
+            </form>
+            <form action="name">
+            <label for="name" >Name of the mother</label>
+            <input type="text" >
+            <label for="name" style="padding: 65px;">Name of the father</label>
+               
+                <input type="text">
+                </form>
+                <form action="name">
+                    <label for="name">Name of the Guardian</label>
+                    <input type="text">
+                    </form>
+                    <form action="details">
+                        <label for="postal" >Postal Address</label>
+                        <input type="text">
+                        <label for="postal" class="details">Phone Number</label>
+                        <input type="text">
+                        <label for="postal" class="details">E-mail</label>
+                        <input type="text" placeholder="E-mail">
+
+                    </form>
+                    <form action="loc">
+                        <label for="loc">Location</label>
+                        <input type="text">
+                    </form>
+                    <h1>Why Choose Sakwa Highschool</h1>
+                    <textarea name="chs" id="chs" cols="30" rows="10" > </textarea>
+                    <input type="submit" name="submit" class="submit" action="index.html">
+                    
+            </div>
+            <div id="teacher">
+                <h1 id="student">TEACHER</h1>
+                <p id="note"><strong>Note:</strong> TSC number is mandatory</p>
+                <h1 id="apply">fill the below Registration form and submit</h1>
+                <form action="/index.html" >
+                    <label for="fname" style="padding: 5px;">First name:</label>
+                    <input type="text" name="fname" id="fname">
+                    <label for="sname" id="sd">Second name:</label>
+                    <input type="text">
+                    <label for="lname" id="sd">Last name:</label>
+                    <input type="text">
+                
+                </form>
+                <form action="/index.html">
+                    <label for="ADM" >TSC NO</label>
+                    <input type="text" >
+                   
+                </form>
+                <form action="gender" class="gender">
+                    <label for="gender">Gender:</label>
+                    <label for="male" style="padding: 40px;">male</label>
+                    <input type="checkbox"id="male" name="male" value="male" style="padding: 0px; size: 40px;"  >
+                    <label for="female" style="padding: 40px;">female</label>
+                    <input type="checkbox" id="female" name="female" value="female">
+                    <label for="other" style="padding: 40px;">other</label>
+                    <input type="checkbox" id="other" name="other" value="other">
+                </form>
+                <form action="name">
+                <label for="name" >University/college</label>
+                <input type="text" >
+                <label for="name" style="padding: 65px;">teaching area</label>
+                   
+                    <input type="text">
+                    </form>
+                    <form action="name">
+                        <label for="name">Any teaching experience</label>
+                        <input type="text">
+                        </form>
+                        <form action="details">
+                            <label for="postal" >Postal Address</label>
+                            <input type="text">
+                            <label for="postal" class="details">Phone Number</label>
+                            <input type="text">
+                            <label for="postal" class="details">E-mail</label>
+                            <input type="text" placeholder="E-mail">
+    
+                        </form>
+                        <form action="loc">
+                            <label for="loc">How do you find about us:</label>
+                            <input type="text" placeholder="e.g: friends,newspapers,ads,internet among others">
+                        </form>
+                        <h1> Achievements/benefit the school will acquire from your teaching?
+ 
+                        
+                            </h1>
+                        <textarea name="chs" id="chs" cols="30" rows="10" > </textarea>
+
+                        <h1 id="terms">TERMS AND CONDITIONS:</h1>
+                        <P class="TERMS"> 
+                            1. We only inform the registered teachers / tutors for any teaching vacancythrough phone, or via sms ,email & expect their feedback after & beforemeeting with the student and registration process is totally free.</P>
+                            <p class="TERMS">2. Every teacher / tutor will be charged 50%  of his/her only  first month'ssalary / tuition fees ,25% if its done on lump sum basis, for each & everyteaching vacancy referred by the academy.</p>
+                            <input type="submit" name="submit" class="submit" action="index.html">
+                               
+                               
+                                
+                                
+ 
+                               
+                           
+                            
+                        
+                        
+            </div>
+
+                
+                
+                
+
+
+              
+            
+    
+        
+        
+        
+    
+</body>
+</html>
